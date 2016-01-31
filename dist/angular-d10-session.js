@@ -31,7 +31,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         key: '_setLogged',
         value: function _setLogged(userinfos) {
           this._isLogged = true;
-          this._isStarted = false;
+          this._isStarted = true;
           this.userinfos = userinfos;
         }
       }, {
