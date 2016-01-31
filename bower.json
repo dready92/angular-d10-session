@@ -1,0 +1,27 @@
+{
+  "name": "angular-d10-session",
+  "version": "1.0.0",
+  "authors": [
+    "mickael.bailly@free.fr"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dready92/angular-d10-session.git"
+  },
+  "description": "Angular session manager for the 10er10 jukebox webserver",
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-d10-rest": "dready92/angular-d10-rest#master"
+  },
+  "devDependencies": {
+    "angular": "~1.4.9"
+  }
+}
